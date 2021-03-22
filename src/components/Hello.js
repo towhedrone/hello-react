@@ -3,7 +3,10 @@ import React from 'react'
 const Hello = (props) =>{
     
     return (
-        <h1>Hello {props.name} and ages {props.age}</h1>
+        <div>
+            <h1>Hello {props.name} and ages {props.age}</h1>
+        <h3>{props.children}</h3>
+        </div>
     )
 }
 
